@@ -24,7 +24,7 @@ PORT = environ.get("PORT", "8082")
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "8211449985 6859451629").split()
+    for admin in environ.get("ADMINS", "8211449985").split()
 ]
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "KeshavTheOwner"
@@ -45,11 +45,11 @@ LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002939065390"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002939065390"))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://devic5348:devic5348@cluster0.sczi6ga.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://devic5348_db_user:dYIIyhN6kizVVDXK@cluster0.orie36r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://golumandal369:rItvgZ1JeeOdn2to@cluster0.ecbu48o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://Keshav123:xYQtravGUfImLII3@cluster0.3vylkao.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
